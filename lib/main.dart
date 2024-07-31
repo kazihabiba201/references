@@ -3,7 +3,6 @@ import 'package:get/get.dart';
 import 'package:getx_statemanagement/app/routes/apps_routes.dart';
 import 'package:getx_statemanagement/app/styles/app_theme.dart';
 
-import 'app/module/home/view/home.dart';
 
 void main() {
   runApp(const MyApp());

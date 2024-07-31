@@ -24,7 +24,7 @@ class RealHomeController extends GetxController {
       return model;
     } catch (e) {
       print(e);
-      throw e;
+      rethrow;
     }
 
 
