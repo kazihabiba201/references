@@ -1,16 +1,22 @@
-# getx_statemanagement
+# references
 
-A new Flutter project.
+- MVC Pattern
+https://github.com/WorkWithAfridi/Flutter-MVC-Template
+- projects
+https://github.com/Mahamudul-Dev/Flutter-Live-Course-Projects
 
-## Getting Started
+## Flutter project create in vscode
+- view > command pallete > write "Flutter new project" enter > Application > select path or folder > give a name your project > enter and done!
 
-This project is a starting point for a Flutter application.
+## Add vscode project in Github 
+- Initialize Repository > add remote path > commite > publish Branch
+- git branch command :
+- - git branch
+  - git branch branch_name (new branch)
+  - git branch -d branch_name (delete)
+  - git checkout [branch-name] (switch branch)
+  - git checkout -b [new-branch-name] (pro tip: create & switch)
+  - git checkout master (to marge sub branch with main branch)
+  - git merge [branch-name] (sub branch merger with main branch)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+apk command: flutter build apk --release
