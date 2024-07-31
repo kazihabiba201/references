@@ -1,0 +1,10 @@
+^D:\GETX_STATEMANAGEMENT\BUILD\WINDOWS\X64\CMAKEFILES\F3368F9558C5C96232F75F3376E0E049\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

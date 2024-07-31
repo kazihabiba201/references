@@ -1,0 +1,1 @@
+ D:\\getx_statemanagement\\.dart_tool\\flutter_build\\096f3cd7bcac08e897df0dab91f546bc\\native_assets.yaml: 
